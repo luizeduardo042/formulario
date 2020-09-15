@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+		<meta charset="UTF-8">
+		<title>Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <form class="form">
+            <tr>
+                <h1>Formulário de Cadastro</h1>
+            </tr>
+                <tr>
+                    <table>Nome: 
+                    <td><input type="text" name = "nome" id="nome"placeholder="...Digite seu nome"></td></table>
+                </tr>
+            <tr>
+                <table>Email: 
+                <td><input type="text" name = "email" id="email"placeholder="...Digite seu email"></td></table>
+            </tr>
+            <tr>
+                <table>Telefone: 
+                <td><input type="text" name = "telefone" id="telefone" placeholder="...Digite o telefone com ddd"></td></table>
+            </tr>
+            <tr>
+                <table>CEP: 
+                <td><input type="text" name = "cep" id="cep"placeholder="...Digite seu cep"></td></table>
+            </tr>
+            <tr>
+                <table>Logradouro: 
+                <td><input type="text" name = "logradouro" id="logradouro"placeholder="Ex.: Rua... ou Av..."></td></table>
+            </tr>
+            <tr>
+                <table>Número: 
+                <td><input type="number" name = "numero" id="numero"placeholder="...Digite o número"></td></table>
+            </tr>
+            <tr>
+                <table>Bairro: 
+                <td><input type="text" name = "bairro" id="bairro"placeholder="...Digite o bairro"></td></table>
+            </tr>
+            <tr>
+                <table>Cidade: 
+                <td><input type="text" name = "cidade" id="cidade"placeholder="...Digite a cidade"></td></table>
+            </tr>
+            <tr>
+                <table>Estado:</table>
+                <td><select name="estado" id="estado"></td>
+                    <option value="Acre">AC</option>
+                    <option value="Alagoas">AL</option>
+                    <option value="Amapá">AP</option>
+                    <option value="Amazonas">AM</option>
+                    <option value="Bahia">BA</option>
+                    <option value="Ceará">CE</option>
+                    <option value="Distrito Federal">DF</option>
+                    <option value="Espírito Santo">ES</option>
+                    <option value="Goiás">GO</option>
+                    <option value="Maranhão">MA</option>
+                    <option value="Mato Grosso">MT</option>
+                    <option value="Mato Grosso do Sul">MS</option>
+                    <option value="Minas Gerais">MG</option>
+                    <option value="Pará">PA</option>
+                    <option value="Paraíba">PB</option>
+                    <option value="Paraná">PR</option>
+                    <option value="Pernambuco">PE</option>
+                    <option value="Piauí">PI</option>
+                    <option value="Rio de Janeiro">RJ</option>
+                    <option value="Rio Grande do Norte">RN</option>
+                    <option value="Rio Grande do Sul">RS</option>
+                    <option value="Rondônia">RO</option>
+                    <option value="Roraima">RR</option>
+                    <option value="Santa Catarina">SC</option>
+                    <option value="São Paulo">SP</option>
+                    <option value="Sergipe">SE</option>
+                    <option value="Tocantins">TO</option>
+
+
+                </tr> 
+            <tr>
+                <td><input type="submit" onclick="Enviar();" value="Enviar" /></td>
+            </tr>
+        </form>
+
+    <div id="campo_texto"></div>
+    <script src="comando.js"></script>
+    </body>
+</html>
